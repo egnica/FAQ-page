@@ -1,0 +1,14 @@
+{
+    "faq": [
+        {
+            "key": "0",
+            "question": "Why are there two conferences in 2024?",
+            "answer": "For the first time, we’re expanding our reach to two vibrant cities: Columbus, OH and Charlotte, NC! This means you have the unique opportunity to choose the location that best fits your schedule and preferences."
+        },
+        {
+            "key": "1",
+            "question": "Which city can I attend?",
+            "answer": "You may choose to attend one city or both cities, there is limited space for each conference, thus registration is first come, first serve."
+        }
+    ]
+}

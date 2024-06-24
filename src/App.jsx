@@ -1,15 +1,25 @@
 import {useState} from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import List from "./list.json";
+
 import "./App.css";
 
 function App() {
-	const [count, setCount] = useState(0);
+	const [selectedIndex, setIndex] = useState(null);
+
+	const clickHandler = (index) => {
+		setIndex(index);
+	};
 
 	return (
 		<>
-			<h1>test</h1>
-			<p>test</p>
+			{List.faq.map((item, index) => {
+				return (
+					<div key={item.key}>
+						<div onClick={() => clickHandler(index)}>{item.question}</div>
+						{selectedIndex == item.key && <div>{item.answer}</div>}
+					</div>
+				);
+			})}
 		</>
 	);
 }
