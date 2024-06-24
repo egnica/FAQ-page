@@ -1,5 +1,6 @@
 #root {
 	font-size: 20px;
+	scroll-behavior: smooth;
 }
 .outline {
 	border-bottom: 2px solid rgb(82, 82, 82);

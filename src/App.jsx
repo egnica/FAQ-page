@@ -24,31 +24,36 @@ function App() {
 			<div className='list-contain'>
 				{List.faq.map((item, index) => {
 					return (
-						<div className='outline' key={item.key}>
-							<div onClick={() => clickHandler(index)} className='item-contain'>
-								<p> {item.question}</p>
+						<>
+							<div className='outline' key={item.key}>
+								<div
+									onClick={() => clickHandler(index)}
+									className='item-contain'
+								>
+									<p> {item.question}</p>
 
-								{selectedIndex === index ? (
-									<img
-										style={{margin: "auto"}}
-										width='30'
-										src='https://www.barlowresearch.com/BusinessBankingConference_2024/images//minus.svg'
-									/>
-								) : (
-									<img
-										width='50'
-										style={{margin: "auto"}}
-										src='https://www.barlowresearch.com/BusinessBankingConference_2024/images/plus.svg'
-									/>
+									{selectedIndex === index ? (
+										<img
+											style={{margin: "auto"}}
+											width='30'
+											src='https://www.barlowresearch.com/BusinessBankingConference_2024/images//minus.svg'
+										/>
+									) : (
+										<img
+											width='50'
+											style={{margin: "auto"}}
+											src='https://www.barlowresearch.com/BusinessBankingConference_2024/images/plus.svg'
+										/>
+									)}
+								</div>
+
+								{selectedIndex === index && (
+									<div className='fade_in'>
+										<Markup content={item.answer} />
+									</div>
 								)}
 							</div>
-
-							{selectedIndex === index && (
-								<div className='fade_in'>
-									<Markup content={item.answer} />
-								</div>
-							)}
-						</div>
+						</>
 					);
 				})}
 			</div>
