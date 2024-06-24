@@ -3,12 +3,62 @@
         {
             "key": "0",
             "question": "Why are there two conferences in 2024?",
-            "answer": "For the first time, we’re expanding our reach to two vibrant cities: Columbus, OH and Charlotte, NC! This means you have the unique opportunity to choose the location that best fits your schedule and preferences."
+            "answer": "For the first time, we're expanding our reach to two vibrant cities: Columbus, OH and Charlotte, NC! This means you have the unique opportunity to choose the location that best fits your schedule and preferences."
         },
         {
             "key": "1",
             "question": "Which city can I attend?",
             "answer": "You may choose to attend one city or both cities, there is limited space for each conference, thus registration is first come, first serve."
+        },
+        {
+            "key": "3",
+            "question": "What does it cost to attend?",
+            "answer": "Please reference the conference ticket costs <a href=\"https://www.barlowresearch.com/BusinessBankingConference_2024/register.php?item=14145\">HERE</a>. Attendance is complimentary for Barlow clients and members."
+        },
+        {
+            "key": "4",
+            "question": "Are the agendas difference between Columbus and Charlotte agendas?",
+            "answer": "In both cities, Barlow Research plans to have one day of the latest and greatest in small business, middle market and digital business banking topics. Keynotes and sessions may differ, however, Barlow Research clients may access available materials from both cities whether or not they are in attendance."
+        },
+        {
+            "key": "5",
+            "question": "Why should I attend?",
+            "answer": "• Engage with your peers and hear from world class experts to provide insight on the business banking market.<br/><br/>• Meet new partners that can help you elevate your services to your business customers.<br/><br/>• Be the first to learn new strategies to differentiate your offerings."
+        },
+        {
+            "key": "6",
+            "question": "Who attends the Barlow Research Conference?",
+            "answer": "Any individuals working in the B2B space, with a focus in small business, business banking, middle market banking or digital banking lines of business. Attendees include individuals from top US financial institutions, medium sized and community banks. Typical titles of past attendees include: C-suite, heads of business segments, EVP, SVP, VP, Managers from diverse teams such as Product, Marketing, Digital, Strategy, CX."
+        },
+        {
+            "key": "7",
+            "question": "Is there a conference mobile app?",
+            "answer": "There will not be a dedicated mobile app, however, you can access the Barlow conference page by using your phone’s mobile browser. The website will provide attendees with access to important conference information including the agenda, speakers and available documents. Attendees will receive instructions two weeks prior to the conference."
+        },
+        {
+            "key": "8",
+            "question": "What is the dress code?",
+            "answer": "The conference dress code is business casual."
+        },
+        {
+            "key": "9",
+            "question": "Will the conference be live streamed?",
+            "answer": "No live streaming of the event is available, you must attend in person to participate in the conference sessions."
+        },
+        {
+            "key": "10",
+            "question": "How do I pay for the conference?",
+            "answer": "If you are not a Barlow Client, <a href=\"https://www.barlowresearch.com/BusinessBankingConference_2024/register.php?item=14145\">REGISTER HERE</a>. Once your registration information has been received, you will receive an invoice which will provide you with the ability to pay via credit card or check."
+        },
+        {
+            "key": "11",
+            "question": "Is transportation provided to and from the airport?",
+            "answer": "No airport shuttles are provided as part of the Barlow conference."
+        },
+        {
+            "key": "12",
+            "question": "Can I receive a refund if my plans have changed?",
+            "answer": "All conference cancellations received on or before 11:59 p.m. CT, October 11, 2024 will receive a 50% refund. No refunds will be issued after 11:59 p.m. CT, October 11, 2024. Refunds are not given for no-shows. Substitutions of attendance are allowed at any time. Please email all written cancellation and substitution requests to <a href=\"mailto:insights@barlowresearch.com\">OUR TEAM</a>."
         }
     ]
 }

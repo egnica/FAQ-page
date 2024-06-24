@@ -5,8 +5,68 @@
 		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>FAQ</title>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<link
+			rel="stylesheet"
+			href="https://www.barlowresearch.com/BusinessBankingConference_2024/style.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 	</head>
 	<body>
+		<nav class="nav-container">
+			<a href="https://www.barlowresearch.com/index.php">
+				<img class="nav-image speaker" style="" src="./images/logo2.png" />
+			</a>
+
+			<!-- <a href="./form/index.php" target="_blank">
+            <div style="text-align: center;" class="nav-button3">Register for Charlotte<br><span style="font-size: small;">Nov 12, 2024</span> </div>
+        </a> -->
+			<a href="./register.php?item=14145" target="_blank">
+				<div style="text-align: center" class="nav-button">
+					Register for Charlotte<br />
+					<span style="font-size: small">Nov. 12, 2024</span>
+				</div>
+			</a>
+
+			<div style="padding-top: 30px">
+				<li class="nav-item"><a href="./index.php">Home</a></li>
+				<!-- <li class="nav-item"><a href="./agenda.php">Agenda</a></li> -->
+				<!-- <li class="nav-item"><a href="./speakers.php">Speakers</a></li> -->
+				<!-- <li class="nav-item"><a href="./index.php#venue">Venue</a></li> -->
+				<!-- <li class="nav-item"><a href="./index.php#accommodations">Hotels</a></li> -->
+				<li class="nav-item"><a href="./faq.php">FAQs</a></li>
+				<!-- <li class="nav-item"><a href="./index.php#sponsor">Sponsors</a></li> -->
+			</div>
+		</nav>
+
+		<!-- Top Navigation Menu -->
+		<div class="mobile-container">
+			<div class="topnav">
+				<a href="./index.php" class="active">Home</a>
+				<div id="myLinks">
+					<a href="./register.php?item=14145">REGISTER</a>
+					<!-- <a href="./agenda.php">Agenda</a>
+                <a href="./speakers.php">Speakers</a>
+                <a href="#./index.php#venue">Venue</a>
+                <a href="#./index.php#accommodations">Hotels</a> -->
+					<a href="./faq.php">FAQs</a>
+					<!-- <a href="./index.php#sponsor">Sponsors</a> -->
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</div>
+
 		<div id="root"></div>
 		<script type="module" src="/src/main.jsx"></script>
 	</body>
