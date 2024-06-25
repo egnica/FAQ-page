@@ -49,7 +49,9 @@ function App() {
 
 								{selectedIndex === index && (
 									<div className='fade_in'>
-										<Markup content={item.answer} />
+										<div>
+											<Markup content={item.answer} />
+										</div>
 									</div>
 								)}
 							</div>
